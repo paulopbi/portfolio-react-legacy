@@ -9,7 +9,7 @@ export const Card = ({ ProjectsInfo }) => {
         ({
           id,
           name,
-          path,
+          image_path,
           icon,
           label_button,
           description,
@@ -24,7 +24,7 @@ export const Card = ({ ProjectsInfo }) => {
             <div className="relative h-[250px] w-full overflow-hidden">
               <img
                 loading="lazy"
-                src={path}
+                src={image_path}
                 className="duration-400 object-cover transition-all ease-in hover:scale-[1.2]"
                 alt={name}
                 width={384}
