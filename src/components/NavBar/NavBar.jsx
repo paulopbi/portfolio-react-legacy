@@ -13,7 +13,7 @@ const NavBar = () => {
         <div className={`${menuHandler ? "absolute left-0 top-0" : ""} p-2`}>
           <img
             loading="lazy"
-            src="public/my_logo.svg"
+            src="src/assets/my_logo.svg"
             alt="Paulo Victor Logo"
           />
         </div>
@@ -69,7 +69,7 @@ const NavBar = () => {
             >
               <img
                 loading="lazy"
-                src="public/github_icon.svg"
+                src="src/assets/github_icon.svg"
                 alt="Github icon"
                 width={25}
                 height={25}
@@ -86,7 +86,7 @@ const NavBar = () => {
             >
               <img
                 loading="lazy"
-                src="public/linkedin_icon.svg"
+                src="src/assets/linkedin_icon.svg"
                 alt="Linkedin icon"
                 width={25}
                 height={25}
@@ -102,7 +102,7 @@ const NavBar = () => {
               onClick={() => setMenuHandler(false)}
             >
               <img
-                src="public/behance_icon.svg"
+                src="src/assets/behance_icon.svg"
                 alt="Behance Icon"
                 width={25}
                 height={25}
@@ -118,8 +118,8 @@ const NavBar = () => {
             src={`
               ${
                 menuHandler
-                  ? "public/mobile_menu_close_icon.svg"
-                  : "public/mobile_menu_open_icon.svg"
+                  ? "src/assets/mobile_menu_close_icon.svg"
+                  : "src/assets/mobile_menu_open_icon.svg"
               }
             `}
             alt="Mobile Menu"
