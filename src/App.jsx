@@ -4,8 +4,12 @@ import Education from "./layout/Education";
 import Hero from "./layout/Hero";
 import Projects from "./layout/Projects";
 import Skills from "./layout/Skills";
+import ThanksMessage from "./utils/ThanksMessage";
 
 function App() {
+  //show a thank you message in the console
+  ThanksMessage;
+
   return (
     <>
       <NavBar />
