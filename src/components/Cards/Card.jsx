@@ -2,7 +2,7 @@ import Proptypes from "prop-types";
 import { ButtonPrimary, ButtonSecondary } from "../Buttons/Buttons";
 import Badge from "../Texts/Badge";
 
-const Card = ({ ProjectsInfo }) => {
+export const Card = ({ ProjectsInfo }) => {
   return (
     <>
       {ProjectsInfo.map(
@@ -66,8 +66,50 @@ const Card = ({ ProjectsInfo }) => {
   );
 };
 
+export const EducationCard = ({ EducationInfos }) => {
+  return (
+    <>
+      {EducationInfos.map(
+        ({ id, escolarity, title, institution, time, icon }) => (
+          <div
+            key={id}
+            className="border-blue_300 bg-dark_blue_100 flex min-h-[200px] min-w-[380px] flex-col items-start justify-between rounded border p-4"
+          >
+            <div className="flex flex-col gap-4 capitalize">
+              <strong className="text-gray_200 flex items-center justify-start gap-2">
+                {escolarity}
+                <img
+                  loading="lazy"
+                  src={icon}
+                  alt="Icon"
+                  width={20}
+                  height={20}
+                />
+              </strong>
+              <h3 className="max-w-[20ch] text-2xl font-bold">{title}</h3>
+            </div>
+            <div className="flex w-full items-start justify-between gap-2 uppercase">
+              <p className="text-gray_200 flex-1 break-all text-sm">
+                {institution}
+              </p>
+
+              {time ? (
+                <span className="text-gray_200 break-all text-right text-sm">
+                  {time}H
+                </span>
+              ) : null}
+            </div>
+          </div>
+        ),
+      )}
+    </>
+  );
+};
+
 Card.propTypes = {
   ProjectsInfo: Proptypes.array,
 };
 
-export default Card;
+EducationCard.propTypes = {
+  EducationInfos: Proptypes.array,
+};
