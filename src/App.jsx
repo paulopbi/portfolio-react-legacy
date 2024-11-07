@@ -1,3 +1,4 @@
+import Footer from "./components/Footer/Footer";
 import NavBar from "./components/NavBar/NavBar";
 import Education from "./layout/Education";
 import Hero from "./layout/Hero";
@@ -12,6 +13,7 @@ function App() {
       <Skills />
       <Projects />
       <Education />
+      <Footer />
     </>
   );
 }
