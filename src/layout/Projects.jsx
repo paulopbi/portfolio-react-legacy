@@ -1,4 +1,4 @@
-import Card from "../components/Cards/Card";
+import { Card } from "../components/Cards/Card";
 import SectionsTitle from "../components/Texts/SectionsTitle";
 import ProjectsInfo from "../utils/ProjectsInfo";
 
