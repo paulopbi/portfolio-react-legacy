@@ -1,5 +1,5 @@
-/* para os cards ficarem com o tamanho identicos, 
-as descrições precisam ter no minimo 180 caracteres*/
+/* for cards stay in the same size,
+descriptions must be at least 180 characters long*/
 
 const ProjectsInfo = [
   {
@@ -18,7 +18,7 @@ const ProjectsInfo = [
     id: 2,
     name: "Rick And Morty",
     label_button: "Repositório",
-    icon: "/github_icon.svg",
+    icon: "src/assets/github_icon.svg",
     repository: "https://github.com/paulopbi/rick-and-morty",
     demonstration: "https://paulopbi.github.io/rick-and-morty/",
     description:
@@ -54,7 +54,7 @@ const ProjectsInfo = [
     id: 5,
     name: "Lemon Peper",
     label_button: "Behance",
-    icon: "/behance_icon.svg",
+    icon: "src/assets/behance_icon.svg",
     description:
       "Lemon Peper, um projeto de UI Design feito em colaboração com um amigo, sendo um website para pizzaria, onde utilizando alguns filtros, o usuário pode ver vários tipos de pizzas diferentes.",
     repository: "https://www.behance.net/gallery/142436253/UI_Design_Pizzaria",
