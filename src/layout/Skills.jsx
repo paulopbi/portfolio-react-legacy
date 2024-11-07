@@ -1,6 +1,6 @@
 import Marquee from "react-fast-marquee";
 import SectionsTitle from "../components/Texts/SectionsTitle";
-import SkillsInfos from "../utils/SkillInfos";
+import SkillsInfos from "../utils/SkillsInfos";
 
 const Skills = () => {
   return (
