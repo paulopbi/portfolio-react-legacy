@@ -1,4 +1,9 @@
 import { useState } from "react";
+import GITHUB_ICON from "../../assets/github_icon.svg";
+import LINKEDIN_ICON from "../../assets/linkedin_icon.svg";
+import BEHANCE_ICON from "../../assets/behance_icon.svg";
+import CLOSE_ICON from "../../assets/mobile_menu_close_icon.svg";
+import OPEN_ICON from "../../assets/mobile_menu_open_icon.svg";
 
 const NavBar = () => {
   const [menuHandler, setMenuHandler] = useState(false);
@@ -69,7 +74,7 @@ const NavBar = () => {
             >
               <img
                 loading="lazy"
-                src="src/assets/github_icon.svg"
+                src={GITHUB_ICON}
                 alt="Github icon"
                 width={25}
                 height={25}
@@ -86,7 +91,7 @@ const NavBar = () => {
             >
               <img
                 loading="lazy"
-                src="src/assets/linkedin_icon.svg"
+                src={LINKEDIN_ICON}
                 alt="Linkedin icon"
                 width={25}
                 height={25}
@@ -102,7 +107,7 @@ const NavBar = () => {
               onClick={() => setMenuHandler(false)}
             >
               <img
-                src="src/assets/behance_icon.svg"
+                src={BEHANCE_ICON}
                 alt="Behance Icon"
                 width={25}
                 height={25}
@@ -116,11 +121,7 @@ const NavBar = () => {
         >
           <img
             src={`
-              ${
-                menuHandler
-                  ? "src/assets/mobile_menu_close_icon.svg"
-                  : "src/assets/mobile_menu_open_icon.svg"
-              }
+              ${menuHandler ? CLOSE_ICON : OPEN_ICON}
             `}
             alt="Mobile Menu"
             width={30}

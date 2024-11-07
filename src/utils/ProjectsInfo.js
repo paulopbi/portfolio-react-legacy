@@ -7,12 +7,15 @@ import WEATHER_DEMO from "../assets/weather_demo.gif";
 import LEMON_PEPER_DEMO from "../assets/lemon_peper.jpg";
 import PORTFOLIO_DEMO from "../assets/portfolio.jpg";
 
+import GITHUB_ICON from "../assets/github_icon.svg";
+import BEHANCE_ICON from "../assets/behance_icon.svg";
+
 const ProjectsInfo = [
   {
     id: 1,
     name: "FlashDash",
     label_button: "Repositório",
-    icon: "src/assets/github_icon.svg",
+    icon: GITHUB_ICON,
     repository: "https://github.com/paulopbi/flashdash",
     demonstration: "https://paulopbi.github.io/flashdash/",
     description:
@@ -24,7 +27,7 @@ const ProjectsInfo = [
     id: 2,
     name: "Rick And Morty",
     label_button: "Repositório",
-    icon: "src/assets/github_icon.svg",
+    icon: GITHUB_ICON,
     repository: "https://github.com/paulopbi/rick-and-morty",
     demonstration: "https://paulopbi.github.io/rick-and-morty/",
     description:
@@ -36,7 +39,7 @@ const ProjectsInfo = [
     id: 3,
     name: "Animais Fantásticos",
     label_button: "Repositório",
-    icon: "src/assets/github_icon.svg",
+    icon: GITHUB_ICON,
     repository: "https://github.com/paulopbi/animais-fantasticos",
     demonstration: "https://paulopbi.github.io/animais-fantasticos/",
     description:
@@ -48,7 +51,7 @@ const ProjectsInfo = [
     id: 4,
     name: "Aplicação de Clima",
     label_button: "Repositório",
-    icon: "src/assets/github_icon.svg",
+    icon: GITHUB_ICON,
     description:
       "Utilizando a WeatherApi, esta aplicação permite aos usuários buscar informações climáticas em tempo real de qualquer cidade do mundo! Basta digitar o nome da cidade no formulário.",
     repository: "https://github.com/paulopbi/weather_app",
@@ -60,7 +63,7 @@ const ProjectsInfo = [
     id: 5,
     name: "Lemon Peper",
     label_button: "Behance",
-    icon: "src/assets/behance_icon.svg",
+    icon: BEHANCE_ICON,
     description:
       "Lemon Peper, um projeto de UI Design feito em colaboração com um amigo, sendo um website para pizzaria, onde utilizando alguns filtros, o usuário pode ver vários tipos de pizzas diferentes.",
     repository: "https://www.behance.net/gallery/142436253/UI_Design_Pizzaria",
@@ -72,7 +75,7 @@ const ProjectsInfo = [
     id: 6,
     name: "Portfólio",
     label_button: "Repositório",
-    icon: "src/assets/github_icon.svg",
+    icon: GITHUB_ICON,
     description:
       "Meu portfólio pessoal, foi criado por mim totalmente do zero, fiz o design no Figma e codifiquei esse projeto com React, acesse o arquivo do Figma para ver o style guide e todos os assets.",
     repository: "https://github.com/paulopbi/portfolio",

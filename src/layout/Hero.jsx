@@ -1,4 +1,6 @@
 import { ButtonPrimary, ButtonSecondary } from "../components/Buttons/Buttons";
+import MY_PICTURE from "../assets/my_picture.jpg";
+import DOWNLOAD_ICON from "../assets/download_icon.svg";
 
 const Hero = () => {
   return (
@@ -10,7 +12,7 @@ const Hero = () => {
         <div className="max-h-[400px] max-w-[400px] flex-1 overflow-hidden rounded">
           <img
             loading="lazy"
-            src="src/assets/my_picture.jpg"
+            src={MY_PICTURE}
             alt="Minha foto"
             className="duration-400 w-full object-cover transition-all ease-in hover:scale-[1.2]"
             width={400}
@@ -38,7 +40,7 @@ const Hero = () => {
             <ButtonPrimary
               label="Curriculo"
               link="src/assets/curriculo_paulo_victor.pdf"
-              icon="src/assets/download_icon.svg"
+              icon={DOWNLOAD_ICON}
             />
             <ButtonSecondary label="Contatos" link="#contatos" />
           </div>

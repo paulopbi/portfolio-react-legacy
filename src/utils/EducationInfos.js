@@ -1,3 +1,6 @@
+import COLLEGE_ICON from "../assets/college_icon.svg";
+import LANGUAGE_ICON from "../assets/language_icon.svg";
+
 const EducationInfos = [
   {
     id: 1,
@@ -5,21 +8,21 @@ const EducationInfos = [
     title: "Analise e desenvolvimento de sistemas",
     institution: "Unicesumar",
     time: "2280",
-    icon: "src/assets/college_icon.svg",
+    icon: COLLEGE_ICON,
   },
   {
     id: 2,
     escolarity: "Ensino médio",
     title: "Ensino médio completo",
     institution: "CIEP 289 Cecilio Barbosa da Paixao",
-    icon: "src/assets/college_icon.svg",
+    icon: COLLEGE_ICON,
   },
   {
     id: 3,
     escolarity: "Idioma",
     title: "Inglês",
     institution: "Intermediário",
-    icon: "src/assets/language_icon.svg",
+    icon: LANGUAGE_ICON,
   },
   {
     id: 4,
@@ -27,7 +30,7 @@ const EducationInfos = [
     title: "UI Design Avançado",
     institution: "Origamid",
     time: "30",
-    icon: "src/assets/college_icon.svg",
+    icon: COLLEGE_ICON,
   },
   {
     id: 5,
@@ -35,7 +38,7 @@ const EducationInfos = [
     title: "React Completo",
     institution: "Origamid",
     time: "13",
-    icon: "src/assets/college_icon.svg",
+    icon: COLLEGE_ICON,
   },
   {
     id: 6,
@@ -43,7 +46,7 @@ const EducationInfos = [
     title: "Javascript Completo ES6+",
     institution: "Origamid",
     time: "74",
-    icon: "src/assets/college_icon.svg",
+    icon: COLLEGE_ICON,
   },
 ];
 

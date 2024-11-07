@@ -1,3 +1,7 @@
+import LINKEDIN_ICON from "../../assets/linkedin_icon.svg";
+import BEHANCE_ICON from "../../assets/behance_icon.svg";
+import GITHUB_ICON from "../../assets/github_icon.svg";
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -37,7 +41,7 @@ const Footer = () => {
             rel="noreferrer"
           >
             <img
-              src="src/assets/linkedin_icon.svg"
+              src={LINKEDIN_ICON}
               width={32}
               height={32}
               alt="Linkedin Icon"
@@ -48,24 +52,14 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img
-              src="src/assets/behance_icon.svg"
-              width={32}
-              height={32}
-              alt="Behance Icon"
-            />
+            <img src={BEHANCE_ICON} width={32} height={32} alt="Behance Icon" />
           </a>
           <a
             href="https://github.com/paulopbi"
             target="_blank"
             rel="noreferrer"
           >
-            <img
-              src="src/assets/github_icon.svg"
-              width={32}
-              height={32}
-              alt="Github Icon"
-            />
+            <img src={GITHUB_ICON} width={32} height={32} alt="Github Icon" />
           </a>
         </div>
       </section>
