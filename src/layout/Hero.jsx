@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="max-h-[400px] max-w-[400px] flex-1 overflow-hidden rounded">
           <img
             loading="lazy"
-            src="public/my_picture.jpg"
+            src="src/assets/my_picture.jpg"
             alt="Minha foto"
             className="duration-400 w-full object-cover transition-all ease-in hover:scale-[1.2]"
             width={400}
