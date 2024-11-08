@@ -1,4 +1,5 @@
 import { useState } from "react";
+import LOGO_ICON from "../../assets/my_logo.svg";
 import GITHUB_ICON from "../../assets/github_icon.svg";
 import LINKEDIN_ICON from "../../assets/linkedin_icon.svg";
 import BEHANCE_ICON from "../../assets/behance_icon.svg";
@@ -16,11 +17,7 @@ const NavBar = () => {
         className={`container relative mx-auto flex h-full w-full ${menuHandler ? "flex-col items-center justify-evenly overflow-hidden" : "flex-row items-start justify-between"} gap-6 lg:flex-row`}
       >
         <div className={`${menuHandler ? "absolute left-0 top-0" : ""} p-2`}>
-          <img
-            loading="lazy"
-            src="src/assets/my_logo.svg"
-            alt="Paulo Victor Logo"
-          />
+          <img loading="lazy" src={LOGO_ICON} alt="Paulo Victor Logo" />
         </div>
         <ul
           className={`${menuHandler ? "my-4 flex flex-col items-center gap-4" : "hidden"} font-medium sm:text-base lg:flex lg:items-center lg:justify-between lg:gap-6`}
