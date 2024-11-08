@@ -5,7 +5,7 @@ import RICK_MORTY_DEMO from "../assets/rick_and_morty_demo.gif";
 import ANIMAIS_DEMO from "../assets/animais_fantastico_demo.gif";
 import WEATHER_DEMO from "../assets/weather_demo.gif";
 import LEMON_PEPER_DEMO from "../assets/lemon_peper.jpg";
-import PORTFOLIO_DEMO from "../assets/portfolio.jpg";
+import PORTFOLIO_DEMO from "../assets/thumbnail.png";
 
 import GITHUB_ICON from "../assets/github_icon.svg";
 import BEHANCE_ICON from "../assets/behance_icon.svg";
@@ -79,7 +79,8 @@ const ProjectsInfo = [
     description:
       "Meu portfólio pessoal, foi criado por mim totalmente do zero, fiz o design no Figma e codifiquei esse projeto com React, acesse o arquivo do Figma para ver o style guide e todos os assets.",
     repository: "https://github.com/paulopbi/portfolio",
-    demonstration: null,
+    demonstration:
+      "https://www.figma.com/design/8LpoYdQecW9xspjLaksY7R/Portfolio?m=auto&t=Q8CjFiHoPK3qlAVF-1",
     image_path: PORTFOLIO_DEMO,
     badges: ["UI Design", "Figma", "React JS", "Tailwind"],
   },
