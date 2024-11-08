@@ -1,13 +1,14 @@
 import { ButtonPrimary, ButtonSecondary } from "../components/Buttons/Buttons";
 import MY_PICTURE from "../assets/my_picture.jpg";
 import DOWNLOAD_ICON from "../assets/download_icon.svg";
+import ORNAMENT from "../assets/ornament.svg";
 
 const Hero = () => {
   return (
     <>
       <main
         id="sobre"
-        className="container mx-auto mt-[70px] flex flex-col items-center justify-center gap-6 p-4 md:flex-row"
+        className="container relative z-10 mx-auto mt-[70px] flex flex-col items-center justify-center gap-6 p-4 md:flex-row"
       >
         <div className="max-h-[400px] max-w-[400px] flex-1 overflow-hidden rounded">
           <img
@@ -20,14 +21,14 @@ const Hero = () => {
           />
         </div>
         <div className="flex max-h-[400px] max-w-[500px] flex-1 flex-col gap-2">
-          <span className="text-blue_300 text-xs uppercase">Quem sou?</span>
+          <span className="text-xs uppercase text-blue_300">Quem sou?</span>
           <h1 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
             Paulo Victor Silva Rosa
           </h1>
           <span className="text-lg font-medium text-gray-100">
             Desenvolvedor Frontend
           </span>
-          <p className="text-gray_200 max-w-[60ch] text-sm sm:text-base">
+          <p className="max-w-[60ch] text-sm text-gray_200 sm:text-base">
             Olá! Me chamo Paulo Victor, sou formado em Análise e Desenvolvimento
             de Sistemas pela Unicesumar, com domínio das principais ferramentas
             do mercado de Frontend e UI Design. Tenho experiência para
@@ -44,6 +45,14 @@ const Hero = () => {
             />
             <ButtonSecondary label="Contatos" link="#contatos" />
           </div>
+        </div>
+        {/* top */}
+        <div className="absolute left-4 top-0 hidden xl:block">
+          <img src={ORNAMENT} alt="Website detail" />
+        </div>
+        {/* bottom */}
+        <div className="absolute bottom-0 right-4 hidden xl:block">
+          <img src={ORNAMENT} alt="Website detail" />
         </div>
       </main>
     </>
