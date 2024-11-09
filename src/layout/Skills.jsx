@@ -4,10 +4,10 @@ import SkillsInfos from "../utils/SkillsInfos";
 
 const Skills = () => {
   return (
-    <section id="habilidades" className="bg-dark_blue_200 mt-12 w-full p-4">
+    <section id="tecnologias" className="mt-12 w-full bg-dark_blue_200 p-4">
       <div className="container mx-auto py-6">
         <SectionsTitle
-          heading="Habilidades"
+          heading="Técnologias"
           paragraph="Linguagens, Frameworks e bibliotecas que utilizo no dia a dia"
           detail="."
         />
@@ -25,7 +25,7 @@ const Skills = () => {
             {SkillsInfos.map(({ id, label, path }) => (
               <div
                 key={id}
-                className="border-blue_300 bg-dark_blue_100 mx-8 flex min-h-[150px] min-w-[180px] flex-col items-center justify-center gap-2 rounded border p-8 font-bold"
+                className="mx-8 flex min-h-[150px] min-w-[180px] flex-col items-center justify-center gap-2 rounded border border-blue_300 bg-dark_blue_100 p-8 font-bold"
               >
                 <img
                   loading="lazy"

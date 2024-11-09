@@ -11,7 +11,7 @@ const Projects = () => {
     >
       <SectionsTitle
         heading="Projetos"
-        paragraph="Demonstrações dos projetos de Programação e UI Design"
+        paragraph="Demonstrações e repositórios dos meus projetos"
         detail="."
       />
 

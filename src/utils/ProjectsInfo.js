@@ -5,7 +5,7 @@ import RICK_MORTY_DEMO from "../assets/rick_and_morty_demo.gif";
 import ANIMAIS_DEMO from "../assets/animais_fantastico_demo.gif";
 import WEATHER_DEMO from "../assets/weather_demo.gif";
 import LEMON_PEPER_DEMO from "../assets/lemon_peper.jpg";
-import PORTFOLIO_DEMO from "../assets/thumbnail.png";
+import PORTFOLIO_DEMO from "../assets/portfolio.png";
 
 import GITHUB_ICON from "../assets/github_icon.svg";
 import BEHANCE_ICON from "../assets/behance_icon.svg";

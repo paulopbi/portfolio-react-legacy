@@ -2,6 +2,7 @@ import { ButtonPrimary, ButtonSecondary } from "../components/Buttons/Buttons";
 import MY_PICTURE from "../assets/my_picture.jpg";
 import DOWNLOAD_ICON from "../assets/download_icon.svg";
 import ORNAMENT from "../assets/ornament.svg";
+import CURRICULO_PDF from "../assets/frontend_paulo_victor.pdf";
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
         id="sobre"
         className="container relative z-10 mx-auto mt-[70px] flex flex-col items-center justify-center gap-6 p-4 md:flex-row"
       >
-        <div className="max-h-[400px] max-w-[400px] flex-1 overflow-hidden rounded">
+        <div className="max-h-[450px] max-w-[400px] flex-1 overflow-hidden rounded">
           <img
             loading="lazy"
             src={MY_PICTURE}
@@ -28,19 +29,19 @@ const Hero = () => {
           <span className="text-lg font-medium text-gray-100">
             Desenvolvedor Frontend
           </span>
-          <p className="max-w-[60ch] text-sm text-gray_200 sm:text-base">
-            Olá! Me chamo Paulo Victor, sou formado em Análise e Desenvolvimento
-            de Sistemas pela Unicesumar, com domínio das principais ferramentas
-            do mercado de Frontend e UI Design. Tenho experiência para
-            Desenvolver Interfaces intuitivas, eficientes, além do Design
-            criando protótipos ou projetos completos para criar experiências
-            visuais envolventes
+          <p className="max-w-[80ch] text-sm text-gray_200 md:text-base">
+            Olá! Sou Paulo Victor, formado em Análise e Desenvolvimento de
+            Sistemas pela Unicesumar. Tenho conhecimento nas principais
+            ferramentas de Programação Frontend e UI Design do mercado. Minha
+            experiência vem dos projetos que desenvolvi, nos quais crio o design
+            de interfaces intuitivas e eficientes, além de programá-las em
+            projetos completos para oferecer experiências visuais envolventes
             <span className="text-primary_100">.</span>
           </p>
           <div className="flex gap-3">
             <ButtonPrimary
               label="Curriculo"
-              link="src/assets/curriculo_paulo_victor.pdf"
+              link={CURRICULO_PDF}
               icon={DOWNLOAD_ICON}
             />
             <ButtonSecondary label="Contatos" link="#contatos" />

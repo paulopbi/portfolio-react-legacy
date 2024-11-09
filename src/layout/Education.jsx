@@ -5,12 +5,12 @@ import EducationInfos from "../utils/EducationInfos";
 const Education = () => {
   return (
     <section
-      id="estudos"
-      className="bg-dark_blue_200 mb-10 min-h-[400px] w-full p-4 py-6"
+      id="escolaridade"
+      className="mb-10 min-h-[400px] w-full bg-dark_blue_200 p-4 py-6"
     >
       <SectionsTitle
-        heading="Estudos"
-        paragraph="Escolaridade, idiomas e cursos"
+        heading="Escolaridade"
+        paragraph="Informações sobre educação, idiomas e cursos que fiz"
         detail="."
       />
 

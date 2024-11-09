@@ -33,11 +33,11 @@ const NavBar = () => {
           </li>
           <li>
             <a
-              href="#habilidades"
+              href="#tecnologias"
               className="link text-lg drop-shadow-lg"
               onClick={() => setMenuHandler(false)}
             >
-              Habilidades
+              Técnologias
             </a>
           </li>
           <li>
@@ -51,11 +51,11 @@ const NavBar = () => {
           </li>
           <li>
             <a
-              href="#estudos"
+              href="#escolaridade"
               className="link text-lg drop-shadow-lg"
               onClick={() => setMenuHandler(false)}
             >
-              Estudos
+              Escolaridade
             </a>
           </li>
         </ul>
