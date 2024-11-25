@@ -1,10 +1,17 @@
 import Marquee from "react-fast-marquee";
 import SectionsTitle from "../components/Texts/SectionsTitle";
 import SkillsInfos from "../utils/SkillsInfos";
+import { motion } from "framer-motion";
 
 const Skills = () => {
   return (
-    <section id="tecnologias" className="mt-12 w-full bg-dark_blue_200 p-4">
+    <motion.section
+      initial={{ scale: 0.8, opacity: 0 }}
+      animate={{ scale: 1, opacity: 1 }}
+      transition={{ duration: 0.5, delay: 1, ease: "linear" }}
+      id="tecnologias"
+      className="box mt-12 w-full bg-dark_blue_200 p-4"
+    >
       <div className="container mx-auto py-6">
         <SectionsTitle
           heading="Técnologias"
@@ -18,7 +25,7 @@ const Skills = () => {
           gradient={true}
           gradientColor="#070811"
           gradientWidth={155}
-          speed={50}
+          speed={60}
           autoFill={true}
         >
           <div className="relative mt-6 flex gap-10 overflow-x-hidden">
@@ -39,7 +46,7 @@ const Skills = () => {
           </div>
         </Marquee>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

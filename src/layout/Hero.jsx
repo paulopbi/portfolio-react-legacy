@@ -1,4 +1,5 @@
 import { ButtonPrimary, ButtonSecondary } from "../components/Buttons/Buttons";
+import { motion } from "framer-motion";
 import MY_PICTURE from "../assets/my_picture.jpg";
 import DOWNLOAD_ICON from "../assets/download_icon.svg";
 import ORNAMENT from "../assets/ornament.svg";
@@ -7,7 +8,10 @@ import CURRICULO_PDF from "../assets/frontend_paulo_victor.pdf";
 const Hero = () => {
   return (
     <>
-      <main
+      <motion.main
+        initial={{ scale: 0.8, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.5, ease: "linear" }}
         id="sobre"
         className="container relative z-10 mx-auto mt-[70px] flex flex-col items-center justify-center gap-6 p-4 md:flex-row"
       >
@@ -55,7 +59,7 @@ const Hero = () => {
         <div className="absolute bottom-0 right-4 hidden xl:block">
           <img src={ORNAMENT} alt="Website detail" />
         </div>
-      </main>
+      </motion.main>
     </>
   );
 };

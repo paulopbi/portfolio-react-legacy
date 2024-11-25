@@ -1,10 +1,11 @@
-import Proptypes from "prop-types";
 import { ButtonPrimary, ButtonSecondary } from "../Buttons/Buttons";
+import { motion } from "framer-motion";
+import Proptypes from "prop-types";
 import Badge from "../Texts/Badge";
 
 export const Card = ({ ProjectsInfo }) => {
   return (
-    <>
+    <div className="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
       {ProjectsInfo.map(
         ({
           id,
@@ -17,9 +18,12 @@ export const Card = ({ ProjectsInfo }) => {
           demonstration,
           badges,
         }) => (
-          <article
+          <motion.article
+            initial={{ opacity: 0, translateX: "-100px", scale: 0.8 }}
+            whileInView={{ opacity: 1, translateX: "0px", scale: 1 }}
+            transition={{ duration: 0.9, delay: 0 }}
             key={id}
-            className="blur-effect bg-dark_blue_100 relative min-h-[300px] max-w-[370px] overflow-hidden rounded"
+            className="blur-effect relative min-h-[300px] max-w-[370px] overflow-hidden rounded bg-dark_blue_100"
           >
             <div className="relative h-[250px] w-full overflow-hidden">
               <img
@@ -59,24 +63,27 @@ export const Card = ({ ProjectsInfo }) => {
                 ) : null}
               </div>
             </div>
-          </article>
+          </motion.article>
         ),
       )}
-    </>
+    </div>
   );
 };
 
 export const EducationCard = ({ EducationInfos }) => {
   return (
-    <>
+    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
       {EducationInfos.map(
         ({ id, escolarity, title, institution, time, icon }) => (
-          <div
+          <motion.article
+            initial={{ opacity: 0, translateX: "-100px", scale: 0.8 }}
+            whileInView={{ opacity: 1, translateX: "0px", scale: 1 }}
+            transition={{ duration: 0.9, delay: 0 }}
             key={id}
-            className="border-blue_300 bg-dark_blue_100 flex min-h-[200px] min-w-[380px] flex-col items-start justify-between rounded border p-4"
+            className="flex min-h-[200px] min-w-[300px] flex-col items-start justify-between rounded border border-blue_300 bg-dark_blue_100 p-4"
           >
             <div className="flex flex-col gap-4 capitalize">
-              <strong className="text-gray_200 flex items-center justify-start gap-2">
+              <strong className="flex items-center justify-start gap-2 text-gray_200">
                 {escolarity}
                 <img
                   loading="lazy"
@@ -89,20 +96,20 @@ export const EducationCard = ({ EducationInfos }) => {
               <h3 className="max-w-[20ch] text-2xl font-bold">{title}</h3>
             </div>
             <div className="flex w-full items-start justify-between gap-2 uppercase">
-              <p className="text-gray_200 flex-1 break-all text-sm">
+              <p className="flex-1 break-all text-sm text-gray_200">
                 {institution}
               </p>
 
               {time ? (
-                <span className="text-gray_200 break-all text-right text-sm">
+                <span className="break-all text-right text-sm text-gray_200">
                   {time}H
                 </span>
               ) : null}
             </div>
-          </div>
+          </motion.article>
         ),
       )}
-    </>
+    </div>
   );
 };
 
