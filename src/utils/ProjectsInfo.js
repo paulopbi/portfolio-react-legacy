@@ -5,7 +5,7 @@ import RICK_MORTY_DEMO from "../assets/rick_and_morty_demo.gif";
 import ANIMAIS_DEMO from "../assets/animais_fantastico_demo.gif";
 import WEATHER_DEMO from "../assets/weather_demo.gif";
 import LEMON_PEPER_DEMO from "../assets/lemon_peper.jpg";
-import PORTFOLIO_DEMO from "../assets/portfolio.png";
+import ALLSTORE_DEMO from "../assets/allstore.jpg";
 
 import GITHUB_ICON from "../assets/github_icon.svg";
 import BEHANCE_ICON from "../assets/behance_icon.svg";
@@ -73,16 +73,17 @@ const ProjectsInfo = [
   },
   {
     id: 6,
-    name: "Portfólio",
-    label_button: "Repositório",
-    icon: GITHUB_ICON,
+    name: "All Store",
+    label_button: "Behance",
+    icon: BEHANCE_ICON,
     description:
-      "Meu portfólio pessoal, foi criado por mim totalmente do zero, fiz o design no Figma e codifiquei esse projeto com React, acesse o arquivo do Figma para ver o style guide e todos os assets.",
-    repository: "https://github.com/paulopbi/portfolio",
+      "all store, a loja virtual onde você encontra de tudo! De eletrônicos a tênis, oferecemos variedade e qualidade em um só lugar. Explore e descubra o que precisa!",
+    repository:
+      "https://www.behance.net/gallery/213316509/All-Store-Find-Everything-Here",
     demonstration:
-      "https://www.figma.com/design/8LpoYdQecW9xspjLaksY7R/Portfolio?m=auto&t=Q8CjFiHoPK3qlAVF-1",
-    image_path: PORTFOLIO_DEMO,
-    badges: ["UI Design", "Figma", "React JS", "Tailwind"],
+      "https://www.figma.com/design/nEeiviFiFj82uIpz4pRy1n/ALLSTORE?m=auto&t=IDJyZALpowO1Hydc-1",
+    image_path: ALLSTORE_DEMO,
+    badges: ["UI Design", "Figma"],
   },
 ];
 
