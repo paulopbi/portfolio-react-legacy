@@ -24,6 +24,19 @@ there are all my projects compiled, feel free to explore them.
 <img src="./src/assets/thumbnail.png" alt="Project Thumbnail">
 </p>
 
+### Build With 👨🏾‍💻
+
+**Tailwind** it have excellent support in building **responsive layouts**, which allowed me to develop the portfolio more efficiently and mobile first. <br>
+
+Using **React**, I was able to **componentize** the entire project—organizing sections, buttons, and the navigation menu into separate files. This structure makes it easier to maintain the project and quickly address any issues that arise. <br>
+
+And also I use **Framer Motion** for animations.
+
+- ![React JS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
+- ![Tailwind CSS](https://img.shields.io/badge/Tailwind-20232A?style=for-the-badge&logo=tailwindcss)
+- ![Figma](https://img.shields.io/badge/Figma-20232A?style=for-the-badge&logo=figma)
+- ![Framer Motion](https://img.shields.io/badge/Framer_Motion-20232A?style=for-the-badge&logo=framer)
+
 ### Design Process 🎨
 
 I handled the entire design process, starting with **sketches on paper**, then moving to **wireframes**, and finally reaching the completed version.
@@ -35,16 +48,6 @@ You can check all my design process and style guide on Figma, just [**click here
 <p align="center">
   <img src="./src/assets/desktop_layout.png" alt="Desktop layout design preview">
 </p>
-
-### Build With 👨🏾‍💻
-
-I chose **Tailwind** for its excellent support in building **responsive layouts**, which allowed me to develop the portfolio more efficiently.
-Using **React**, I was able to **componentize** the entire project—organizing sections, buttons, and the navigation menu into separate files.
-This structure makes it easier to maintain the project and quickly address any issues that arise.
-
-- ![React JS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
-- ![Tailwind CSS](https://img.shields.io/badge/Tailwind-20232A?style=for-the-badge&logo=tailwindcss)
-- ![Figma](https://img.shields.io/badge/Figma-20232A?style=for-the-badge&logo=figma)
 
 ### License ©
 
