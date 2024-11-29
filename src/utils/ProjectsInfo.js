@@ -1,4 +1,4 @@
-/* for cards stay in the same size,
+/* NOTE for cards stay in the same size,
 descriptions must be at least 180 characters long*/
 import FLASHDASH_DEMO from "../assets/flashdash_demo.gif";
 import RICK_MORTY_DEMO from "../assets/rick_and_morty_demo.gif";
@@ -6,7 +6,6 @@ import ANIMAIS_DEMO from "../assets/animais_fantastico_demo.gif";
 import WEATHER_DEMO from "../assets/weather_demo.gif";
 import LEMON_PEPER_DEMO from "../assets/lemon_peper.jpg";
 import ALLSTORE_DEMO from "../assets/allstore.jpg";
-
 import GITHUB_ICON from "../assets/github_icon.svg";
 import BEHANCE_ICON from "../assets/behance_icon.svg";
 
@@ -21,7 +20,7 @@ const ProjectsInfo = [
     description:
       "Uma aplicação que utiliza a API do Unsplash para gera fotos aleatórias a cada vez que você entrar, os usuários podem baixar as fotos e usar como wallpaper de celular ou computador.",
     image_path: FLASHDASH_DEMO,
-    badges: ["REACT JS", "Tailwind", "API"],
+    badges: ["REACT", "Tailwind", "API"],
   },
   {
     id: 2,
@@ -31,9 +30,9 @@ const ProjectsInfo = [
     repository: "https://github.com/paulopbi/rick-and-morty",
     demonstration: "https://paulopbi.github.io/rick-and-morty/",
     description:
-      "Explore o multiverso de Rick e Morty onde você tem status detalhados de todos os personagens da serie, podendo também pesquisar pelos nomes ou outros filtros disponíveis nesse app.",
+      "Explore o rico multiverso de Rick e Morty onde você dados detalhados de todos os personagens da serie, podendo utilizar vários filtros como nome ou status para customizar as suas pesquisas.",
     image_path: RICK_MORTY_DEMO,
-    badges: ["HTML", "CSS", "JS", "API"],
+    badges: ["React", "CSS", "Motion", "Router Dom", "API"],
   },
   {
     id: 3,
@@ -57,7 +56,7 @@ const ProjectsInfo = [
     repository: "https://github.com/paulopbi/weather_app",
     demonstration: null,
     image_path: WEATHER_DEMO,
-    badges: ["React JS", "Tailwind", "WeatherApi", "API"],
+    badges: ["React", "Tailwind", "WeatherApi", "API"],
   },
   {
     id: 5,
@@ -77,7 +76,7 @@ const ProjectsInfo = [
     label_button: "Behance",
     icon: BEHANCE_ICON,
     description:
-      "all store, a loja virtual onde você encontra de tudo! De eletrônicos a tênis, oferecemos variedade e qualidade em um só lugar. Explore e descubra o que precisa!",
+      "O Projeto de UI Design All-Store é uma loja virtual onde você encontra de tudo! De eletrônicos a tênis, oferecemos variedade e qualidade em um só lugar, explore e descubra o que precisa!",
     repository:
       "https://www.behance.net/gallery/213316509/All-Store-Find-Everything-Here",
     demonstration:
