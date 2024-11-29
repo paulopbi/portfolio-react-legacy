@@ -12,20 +12,13 @@ const EducationInfos = [
   },
   {
     id: 2,
-    escolarity: "Ensino médio",
-    title: "Ensino médio completo",
-    institution: "CIEP 289 Cecilio Barbosa da Paixao",
-    icon: COLLEGE_ICON,
-  },
-  {
-    id: 3,
     escolarity: "Idioma",
     title: "Inglês",
     institution: "Intermediário",
     icon: LANGUAGE_ICON,
   },
   {
-    id: 4,
+    id: 3,
     escolarity: "Curso",
     title: "UI Design Avançado",
     institution: "Origamid",
@@ -33,7 +26,7 @@ const EducationInfos = [
     icon: COLLEGE_ICON,
   },
   {
-    id: 5,
+    id: 4,
     escolarity: "Curso",
     title: "React Completo",
     institution: "Origamid",
@@ -41,7 +34,7 @@ const EducationInfos = [
     icon: COLLEGE_ICON,
   },
   {
-    id: 6,
+    id: 5,
     escolarity: "Curso",
     title: "Typescript",
     institution: "Origamid",
@@ -49,7 +42,7 @@ const EducationInfos = [
     icon: COLLEGE_ICON,
   },
   {
-    id: 7,
+    id: 6,
     escolarity: "Curso",
     title: "Javascript Completo ES6+",
     institution: "Origamid",
