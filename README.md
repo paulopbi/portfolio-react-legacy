@@ -16,7 +16,7 @@
   </p>
 </div>
 
-**Welcome to my portfolio!**
+Welcome to my portfolio!
 Here, you’ll find a detailed showcase of my skills and projects as a **frontend developer** and **ui design**,
 there are all my projects compiled, feel free to explore them.
 
@@ -24,20 +24,20 @@ there are all my projects compiled, feel free to explore them.
 <img src="./src/assets/thumbnail.png" alt="Project Thumbnail">
 </p>
 
-### Build With 👨🏾‍💻
+### 👨🏾‍💻 Build With
+
+- ![React JS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
+- ![Tailwind CSS](https://img.shields.io/badge/Tailwind-20232A?style=for-the-badge&logo=tailwindcss)
+- ![Figma](https://img.shields.io/badge/Figma-20232A?style=for-the-badge&logo=figma)
+- ![Motion](https://img.shields.io/badge/Motion-20232A?style=for-the-badge&logo=framer)
 
 **Tailwind** it have excellent support in building **responsive layouts**, which allowed me to develop the portfolio more efficiently and mobile first. <br>
 
 Using **React**, I was able to **componentize** the entire project—organizing sections, buttons, and the navigation menu into separate files. This structure makes it easier to maintain the project and quickly address any issues that arise. <br>
 
-And also I use **Framer Motion** for animations.
+And also I use **Motion** for animations.
 
-- ![React JS](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
-- ![Tailwind CSS](https://img.shields.io/badge/Tailwind-20232A?style=for-the-badge&logo=tailwindcss)
-- ![Figma](https://img.shields.io/badge/Figma-20232A?style=for-the-badge&logo=figma)
-- ![Framer Motion](https://img.shields.io/badge/Framer_Motion-20232A?style=for-the-badge&logo=framer)
-
-### Design Process 🎨
+### 🎨 Design Process
 
 I handled the entire design process, starting with **sketches on paper**, then moving to **wireframes**, and finally reaching the completed version.
 I chose the **Inter font** for this, because it's a modern and neutral **sans-serif** style font.
@@ -49,11 +49,11 @@ You can check all my design process and style guide on Figma, just [**click here
   <img src="./src/assets/desktop_layout.png" alt="Desktop layout design preview">
 </p>
 
-### License ©
+### © License
 
-Distributed under the Creative Commons BY-NC 4.0 License. See [`LICENSE`](/LICENSE) for more information.
+Distributed under [_Creative Commons BY-NC 4.0 License_](/LICENSE).
 
-### Contact 📩
+### 📩 Contact
 
 Email: paulovictordev16@gmail.com <br>
 Linkedin: https://www.linkedin.com/in/paulopbi/ <br>
