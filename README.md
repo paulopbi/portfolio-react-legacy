@@ -10,11 +10,12 @@
     ·
     <a href="https://github.com/paulopbi" target="_blank">Github</a>
     ·
-    <a href="https://paulopbi.github.io/portfolio/">View Demo</a>
-    ·
     <a href="/LICENSE">License</a>
   </p>
 </div>
+
+> **Legacy porfolio, i don't use this one anymore.**
+
 
 Welcome to my portfolio!
 Here, you’ll find a detailed showcase of my skills and projects as a **frontend developer** and **ui design**,
